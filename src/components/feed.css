@@ -1,0 +1,15 @@
+.feed {
+  flex: 0.6;
+  border-right: 1px solid rgb(231, 229, 229);
+  min-width: fit-content;
+  overflow-y: scroll;
+}
+.feed-head {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  padding: 1rem;
+  border: 1px solid rgb(218, 217, 217);
+  font-weight: 500;
+}
